@@ -57,14 +57,21 @@ h1 {
   position: relative;
 }
 
+#game-container h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 #players {
   list-style: none;
   padding: 0;
   margin: 1rem 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 #players li {
@@ -179,12 +186,12 @@ ol {
 }
 
 #game-board button {
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   border: none;
   background: #aca788;
   color: #3f3b00;
-  font-size: 5rem;
+  font-size: 3rem;
   cursor: pointer;
   font-family: 'Caprasimo', cursive;
   padding: 1rem;
